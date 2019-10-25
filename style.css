@@ -1,29 +1,61 @@
+#name-of-the-flowers-content-container {
+  margin: 0 5%;
+}
+
 .flower-information-box {
-    border: 2px solid blue;
-    display: flex;
-    flex-direction: column;
-  }
-  .flower-image-wrapper{
-    flex: 1;
-    width: 100%;
-  }
-  .flower-image-wrapper img{
-      width: 100%;
-      height: auto;
-  }
-  .flower-information-content{
-    flex: 1;
-    }
-    .chart-container{
-    display: flex;
-    flex-direction: row;
-    }
-    .additional-flower-information{
-    flex: 1;
-    }
-@media screen and (min-width:640px) and (max-width:769px){
-
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
 }
-@media screen and (min-width:770px) and (max-width:1024px){
 
+.flower-image-wrapper {
+  flex: 1;
+  width: 100%;
 }
+
+.flower-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.flower-information-content {
+  flex: 1;
+}
+.flower-name{
+  font-size: 26px;
+  margin: 5px auto;
+}
+.other-flower-name {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 4px;
+  text-indent: 7%;
+}
+.second-flower-name{
+  margin: 0 auto;
+  font-size: 24px;
+  text-indent: 10%;
+}
+.chart-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.additional-flower-information {
+  flex: 50%;
+  text-indent: 5%;
+}
+.additional-flower-information h4 {
+  font-size: 20px;
+}
+.additional-flower-information p {
+  font-size: 18px;
+}
+.more-info {
+  margin-bottom: 0;
+  font-size: 26px;
+}
+
+@media screen and (min-width:640px) and (max-width:769px) {}
+
+@media screen and (min-width:770px) and (max-width:1024px) {}
