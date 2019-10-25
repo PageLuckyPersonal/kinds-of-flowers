@@ -15,7 +15,7 @@
 
 .flower-image-wrapper img {
   width: 100%;
-  height: auto;
+  max-height: 416;
 }
 
 .flower-information-content {
@@ -71,16 +71,35 @@
   }
 
   .flower-image-wrapper {
-   width:50%;
+    flex: 1;
   }
 
-  .name-wrapper{
-    width:50%;
-      }
-
-  .chart-container{
-
+  .name-wrapper {
+    flex: 1;
   }
+  .flower-name{
+    font-size: 32px;
+  }
+  .other-flower-name{
+    text-indent: -25%;
+    margin-top: 35px;
+  }
+  .second-flower-name{
+    margin-top: 20px;
+    font-size: 26px;
+    text-indent: 60px;
+  }
+.chart-container{
+width: 100%;
+}
+  .additional-flower-information {
+    flex: 25%;
+  }
+.flower-information-content{
+  text-align: center;
+  margin: 30px auto;
+}
+
 }
 
 @media screen and (min-width:770px) and (max-width:1024px) {}
