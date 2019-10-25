@@ -21,41 +21,66 @@
 .flower-information-content {
   flex: 1;
 }
-.flower-name{
+
+.flower-name {
   font-size: 26px;
   margin: 5px auto;
 }
+
 .other-flower-name {
   font-size: 18px;
   font-style: italic;
   margin-bottom: 4px;
   text-indent: 7%;
 }
-.second-flower-name{
+
+.second-flower-name {
   margin: 0 auto;
   font-size: 24px;
   text-indent: 10%;
 }
+
 .chart-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .additional-flower-information {
   flex: 50%;
   text-indent: 5%;
 }
+
 .additional-flower-information h4 {
   font-size: 20px;
 }
+
 .additional-flower-information p {
   font-size: 18px;
 }
+
 .more-info {
   margin-bottom: 0;
   font-size: 26px;
 }
 
-@media screen and (min-width:640px) and (max-width:769px) {}
+@media screen and (min-width:640px) and (max-width:769px) {
+  .flower-information-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .flower-image-wrapper {
+   width:50%;
+  }
+
+  .name-wrapper{
+    width:50%;
+      }
+
+  .chart-container{
+
+  }
+}
 
 @media screen and (min-width:770px) and (max-width:1024px) {}
