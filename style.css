@@ -3,13 +3,11 @@
 }
 
 .flower-information-box {
-  border: 2px solid blue;
   display: flex;
   flex-direction: column;
 }
 
 .flower-image-wrapper {
-  flex: 1;
   width: 100%;
 }
 
@@ -48,15 +46,17 @@
 
 .additional-flower-information {
   flex: 50%;
-  text-indent: 5%;
+  text-indent: 5% each-line;
 }
 
 .additional-flower-information h4 {
   font-size: 20px;
+  margin-bottom: 0;
 }
 
 .additional-flower-information p {
   font-size: 18px;
+  margin-top: 7px;
 }
 
 .more-info {
@@ -77,29 +77,66 @@
   .name-wrapper {
     flex: 1;
   }
-  .flower-name{
+
+  .flower-name {
     font-size: 32px;
   }
-  .other-flower-name{
+
+  .other-flower-name {
     text-indent: -25%;
     margin-top: 35px;
   }
-  .second-flower-name{
+
+  .second-flower-name {
     margin-top: 20px;
     font-size: 26px;
     text-indent: 60px;
   }
-.chart-container{
-width: 100%;
-}
+
+  .chart-container {
+    width: 100%;
+  }
+
   .additional-flower-information {
     flex: 25%;
   }
-.flower-information-content{
-  text-align: center;
-  margin: 30px auto;
-}
+
+  .flower-information-content {
+    text-align: center;
+    margin: 30px auto;
+  }
 
 }
 
-@media screen and (min-width:770px) and (max-width:1024px) {}
+@media screen and (min-width:770px) {
+  #name-of-the-flowers-content-container {
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  #name-of-the-flowers-content-container h1 {
+    width: 100%;
+  }
+
+  .flower-information-box {
+    max-width: 45%;
+    margin: 10px 0 10px 0;
+  }
+
+  .more-info-wrapper {
+    border-radius: 5px;
+    background-color: rgb(255, 250, 250);
+    height: auto;
+    overflow: scroll;
+    height: 150px;
+    padding: 10px;
+  }
+
+  .more-info {
+    margin-top: 8px;
+  }
+}
