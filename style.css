@@ -12,8 +12,10 @@
 }
 
 .flower-image-wrapper img {
-  width: 100%;
-  max-height: 416;
+  max-width: 100%;
+  width: auto;
+  max-height: 300px;
+  min-height: 200px;
 }
 
 .flower-information-content {
@@ -139,4 +141,6 @@
   .more-info {
     margin-top: 8px;
   }
+
+
 }
