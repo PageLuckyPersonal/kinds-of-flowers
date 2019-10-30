@@ -16,6 +16,8 @@
   width: auto;
   max-height: 300px;
   min-height: 200px;
+  margin: 0 auto;
+  display: block;
 }
 
 .flower-information-content {
@@ -128,7 +130,13 @@
     max-width: 45%;
     margin: 10px 0 10px 0;
   }
-
+.flower-information-content{
+  text-align: center;
+}
+.chart-container{
+  margin-left: auto;
+  margin-right: auto;
+}
   .more-info-wrapper {
     border-radius: 5px;
     background-color: rgb(255, 250, 250);
@@ -136,11 +144,16 @@
     overflow: scroll;
     height: 150px;
     padding: 10px;
+    max-width: 550px;
   }
-
+.other-flower-name {
+  text-indent: 0;
+}
+.second-flower-name{
+  text-indent: 0;
+}
   .more-info {
     margin-top: 8px;
   }
-
 
 }
