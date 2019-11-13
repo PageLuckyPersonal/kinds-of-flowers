@@ -133,6 +133,9 @@
 .flower-information-content{
   text-align: left;
 }
+#name-of-the-flowers-content-container p {
+  margin-top: 2px;
+}
 
   .more-info-wrapper {
     border-radius: 5px;
@@ -150,7 +153,7 @@
 }
 
   .more-info {
-    margin-top: 8px;
+    margin-top: 3px;
   }
 
 }
